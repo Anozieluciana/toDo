@@ -1,0 +1,34 @@
+.HeroHolder{
+    width: 100%;
+    height: 350px;
+    background-image: url('./Assets/pics.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family:poppins;
+}
+
+.HeroWrapper{
+    width: 80%;
+    font-size: 35px;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background-color: red; */
+   color: #182B4B;
+}
+
+.HeroWrapper>p{
+    font-family: poppins;
+    font-size: small;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:500px){
+    .HeroHolder{
+        height: 250px;
+    }
+}
